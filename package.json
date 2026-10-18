@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "test:subagents": "bun packages/pi-codex-subagents/test/run-source-tests.ts"
+  },
   "pi": {
     "extensions": [
       "./packages/pi-anthropic-image-cap/index.ts",
